@@ -1,6 +1,0 @@
-framework module SimpleHUD {
-  umbrella header "SimpleHUD-umbrella.h"
-
-  export *
-  module * { export * }
-}
