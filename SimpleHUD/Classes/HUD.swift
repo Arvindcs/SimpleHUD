@@ -36,7 +36,11 @@ class HUD: UIView {
                                  y: (bounds.size.height - height)/2.0,
                                  width: height,
                                  height: height)
-        indicator.style = .medium
+        if #available(iOS 13.0, *) {
+            indicator.activityIndicatorViewStyle = .medium
+        } else {
+            indicator.activityIndicatorViewStyle = .gray
+        }
         indicator.startAnimating()
         addSubview(indicator)
     }

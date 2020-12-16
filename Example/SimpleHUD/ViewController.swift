@@ -7,18 +7,24 @@
 //
 
 import UIKit
+import SimpleHUD
 
 class ViewController: UIViewController {
-
+    
+    private var hud = HUD()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
     }
-
+    
+    @IBAction func showActivity(_ sender: UIButton) {
+        hud = createdHUD()
+        //TODO: - Remove Activity
+        //hud.removeFromSuperview()
+    }
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
 }
-
