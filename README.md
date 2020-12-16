@@ -22,7 +22,7 @@ pod 'SimpleHUD'
 
 ## Author
 
-arvindcs, arvindp@alohatechnologydev.com
+arvindcs, arvindpatelcs@gmail.com
 
 ## License
 
