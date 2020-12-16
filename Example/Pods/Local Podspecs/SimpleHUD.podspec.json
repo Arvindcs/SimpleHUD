@@ -1,0 +1,22 @@
+{
+  "name": "SimpleHUD",
+  "version": "0.1.0",
+  "summary": "A short description of SimpleHUD.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/arvindcs/SimpleHUD",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "arvindcs": "arvindp@alohatechnologydev.com"
+  },
+  "source": {
+    "git": "https://github.com/arvindcs/SimpleHUD.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "SimpleHUD/Classes/**/*"
+}
